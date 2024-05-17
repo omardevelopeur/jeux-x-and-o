@@ -1,0 +1,39 @@
+
+div.prince{
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+div.prince div.container{
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display:grid ;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(3,200px);
+    background-color: aqua;
+    gap: 10px 10px;
+    width: fit-content;
+}
+div.prince div.container span{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+}
+div.prince div.container span:hover{
+    cursor: pointer;
+}
+div.op{
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(200, 10, 90);
+    width: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    }
